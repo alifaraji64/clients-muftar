@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.days{
+    @apply border-2 border-blue-500 text-blue-700 rounded-sm mr-1 w-4 text-center cursor-pointer;
+}
