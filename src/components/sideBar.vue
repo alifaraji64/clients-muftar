@@ -1,5 +1,5 @@
 <template>
-  <aside class="relative bg-primary left-0 top-0 w-1/8 max-h-screen h-screen flex justify-center items-center rounded-tr-3xl">
+  <aside class="relative bg-primary left-0 top-0 w-1/5 max-h-screen h-screen flex justify-center items-center rounded-tr-3xl z-10">
       <section class="w-full h-3/4  flex flex-col justify-between items-center text-white">
         <div>
             <router-link to="/overview"><i class="fas fa-home fa-3x"></i></router-link>
@@ -11,10 +11,10 @@
             <router-link to="#"><i class="fas fa-road fa-3x"></i></router-link>
         </div>
         <div>
-            <router-link to="#"><i class="fas fa-dollar-sign fa-3x"></i></router-link>
+            <router-link to="/financials"><i class="fas fa-dollar-sign fa-3x"></i></router-link>
         </div>
         <div>
-            <router-link to="#"><i class="far fa-calendar fa-3x"></i></router-link>
+            <router-link to="/scheduling"><i class="far fa-calendar fa-3x"></i></router-link>
         </div>
         <div>
             <router-link to="#"><i class="fas fa-truck-moving fa-3x"></i></router-link>

@@ -1,7 +1,7 @@
 <template>
   <main class="flex">
       <sideBar/>
-      <div id="continer" class="w-5/8 px-6 pt-4">
+      <div id="container" class="w-5/8 px-6 pt-4">
         <header class="text-primary mb-2 flex justify-between items-center">
             <div>
               <i class="far fa-compass fa-3x"></i><span class="text-2xl font-semibold">Map</span>

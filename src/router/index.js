@@ -19,6 +19,16 @@ const routes = [
     path: '/map',
     name: 'map',
     component: () => import('../views/map/index.vue')
+  },
+  {
+    path: '/scheduling',
+    name: 'scheduling',
+    component: () => import('../views/scheduling/index.vue')
+  },
+  {
+    path: '/financials',
+    name: 'financials',
+    component: () => import('../views/financials/index.vue')
   }
 ]
 

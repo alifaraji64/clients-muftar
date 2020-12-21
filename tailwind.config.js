@@ -8,6 +8,10 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontSize:{
+      '2xs':'.5rem',
+      '3xs':'.3rem'
+    },
     extend: {
       backgroundImage: theme => ({
         'hero-pattern': "url('~@/assets/images/hero-image.jpeg')",
