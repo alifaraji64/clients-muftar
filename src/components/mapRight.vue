@@ -48,10 +48,10 @@
             </div>
             <!-- !FIRST CARD -->
             <!-- SECOND CARD -->
-            <div id="second-card" class="w-full p-1 border-2 border-solid border-gray-400 rounded-md mb-2 text-sm bg-gray-100">
-                <h1>STOCK OF INFORMATION</h1>
-                <div class="text-center text-blue-700">
-                    <p>32 Packs of Panties</p>
+            <div id="second-card" class="w-full p-1 border-2 border-solid border-gray-400 rounded-md mb-2 text-xl bg-gray-100">
+                <h1 class="text-base">STOCK OF INFORMATION</h1>
+                <div class="text-center text-blue-700 text-sm">
+                    <p class="text-sm">32 Packs of Panties</p>
                     <p>102 Gallons of Oil</p>
                     <p>14 Stainless</p>
                     <p>44 Love Seats</p>

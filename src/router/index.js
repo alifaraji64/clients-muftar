@@ -29,7 +29,22 @@ const routes = [
     path: '/financials',
     name: 'financials',
     component: () => import('../views/financials/index.vue')
-  }
+  },
+  {
+    path: '/loads',
+    name: 'loads',
+    component: () => import('../views/loads/index.vue')
+  },
+  {
+    path: '/add-load',
+    name: 'add-load',
+    component: () => import('../views/add-load/index.vue')
+  },
+  {
+    path: '/view-load',
+    name: 'view-load',
+    component: () => import('../views/view-load/index.vue')
+  },
 ]
 
 const router = new VueRouter({

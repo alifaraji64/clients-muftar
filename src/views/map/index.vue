@@ -28,16 +28,16 @@
             </div>
         </section>
       </div>
-      <mapRight/>
+      <MapRight/>
   </main>
 </template>
 
 <script>
 import sideBar from "@/components/sideBar.vue"
-import mapRight from "@/components/mapRight.vue"
+import MapRight from "@/components/MapRight.vue"
 export default {
     components:{
-        sideBar,mapRight
+        sideBar,MapRight
     },
     data(){
         return{

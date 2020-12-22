@@ -11,7 +11,7 @@
                 <i class="fas fa-upload mx-1 cursor-pointer"></i>
             </div>
             <div id="single-card" class="bg-white my-2" v-for="k in 15" :key="k">
-                <div class="text-2xs flex justify-between  p-1 text-blue-800">
+                <div class="text-sm flex justify-between  p-1 text-blue-800">
                     <span>Transaction ID</span>
                     <span>Date</span>
                     <span>Payout</span>
@@ -19,13 +19,13 @@
                     <span>Deliver</span>
                     <span>Driver</span>
                 </div>
-                <div class="text-3xs flex justify-between  p-1 text-gray-600">
-                    <span class="text-3xs">fsdf870245354</span>
-                    <span class="text-3xs">1/1/2021</span>
-                    <span class="text-3xs">$23.43</span>
-                    <span class="text-3xs">Walmart A</span>
-                    <span class="text-3xs">Walmart B</span>
-                    <span class="text-3xs">James R</span>
+                <div class="text-xs flex justify-between  p-1 text-gray-600">
+                    <span>fsdf870245354</span>
+                    <span>1/1/2021</span>
+                    <span>$23.43</span>
+                    <span>Walmart A</span>
+                    <span>Walmart B</span>
+                    <span>James R</span>
                 </div>
             </div>
         </section>
