@@ -17,7 +17,7 @@
             <router-link to="/scheduling"><i class="far fa-calendar fa-3x"></i></router-link>
         </div>
         <div>
-            <router-link to="#"><i class="fas fa-truck-moving fa-3x"></i></router-link>
+            <router-link to="/fleet-data"><i class="fas fa-truck-moving fa-3x"></i></router-link>
         </div>
       </section>
   </aside>
@@ -26,15 +26,16 @@
 <script>
 export default {
     mounted(){
-        let activeLink = document.querySelector('a.router-link-exact-active');
-        activeLink.parentElement.classList.add('bg-white')
-        activeLink.parentElement.classList.add('text-primary')
-        activeLink.parentElement.classList.add('w-full')
-        activeLink.parentElement.classList.add('text-center')
-        activeLink.parentElement.classList.add('rounded-tl-2xl')
-        activeLink.parentElement.classList.add('rounded-bl-2xl')
-        activeLink.parentElement.classList.add('py-2')
-        activeLink.parentElement.classList.add('ml-2')
+        let activeLink = document.querySelector('a.router-link-active');
+        console.log(activeLink);
+        activeLink.parentElement.classList.add('bg-white');
+        activeLink.parentElement.classList.add('text-primary');
+        activeLink.parentElement.classList.add('w-full');
+        activeLink.parentElement.classList.add('text-center');
+        activeLink.parentElement.classList.add('rounded-tl-2xl');
+        activeLink.parentElement.classList.add('rounded-bl-2xl');
+        activeLink.parentElement.classList.add('py-2');
+        activeLink.parentElement.classList.add('ml-2');
     }
 }
 </script>
